@@ -2,16 +2,11 @@
 import './App.css';
 
 import Snake from './component/Snake';
-import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <div >
-    <Router>
-      <Routes>
-     <Route path='/'element={<Snake/>}/> 
-     </Routes>
-     </Router>
-       {/* <Snake/>  */}
+    <Snake/>
+    
     </div>
   );
 }
